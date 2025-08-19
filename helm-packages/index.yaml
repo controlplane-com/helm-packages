@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  postgres:
+  - annotations:
+      category: database
+      created: "2024-11-11"
+      lastModified: "2025-08-13"
+      postgresVersion: "17"
+    apiVersion: v2
+    appVersion: "17"
+    created: "2025-08-18T09:58:01.964401-07:00"
+    description: PostgreSQL app for Control Plane
+    digest: 9918501e6809dba142c82071be61494a3f8f67d732fef717801c39cfec7b791f
+    name: postgres
+    type: application
+    urls:
+    - postgres-2.0.0.tgz
+    version: 2.0.0
+generated: "2025-08-18T09:58:01.963756-07:00"
