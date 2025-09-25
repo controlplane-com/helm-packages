@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  n8n:
+  - annotations:
+      category: app
+      created: "2025-08-25"
+      lastModified: "2025-08-25"
+    apiVersion: v3
+    appVersion: 1.0.0
+    created: "2025-09-25T06:22:44.772847-07:00"
+    description: n8n with PostgreSQL
+    digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
+    name: n8n
+    type: application
+    urls:
+    - n8n-with-pg-1.0.0.tgz
+    version: 1.0.0
   postgres:
   - annotations:
       category: database
@@ -8,12 +23,12 @@ entries:
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2025-08-18T09:58:01.964401-07:00"
+    created: "2025-09-25T06:22:44.773073-07:00"
     description: PostgreSQL app for Control Plane
-    digest: 9918501e6809dba142c82071be61494a3f8f67d732fef717801c39cfec7b791f
+    digest: b50ee1c06a4b5f13e81f7215a48374f27b53d9492b3020ac6205d87006858482
     name: postgres
     type: application
     urls:
     - postgres-2.0.0.tgz
     version: 2.0.0
-generated: "2025-08-18T09:58:01.963756-07:00"
+generated: "2025-09-25T06:22:44.772422-07:00"
