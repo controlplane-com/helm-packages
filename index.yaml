@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  etcd:
+  - annotations:
+      category: key-value store
+      created: "2025-09-30"
+      createsGvc: "false"
+      lastModified: "2025-10-01"
+    apiVersion: v2
+    appVersion: 3.6.5
+    created: "2025-10-03T12:18:35.165389-07:00"
+    description: Etcd distributed coordination system for Control Plane
+    digest: 6e151d380de561a5ed280111bb50e3000b5d7c41a16df491028a3709155e58ae
+    name: etcd
+    type: application
+    urls:
+    - etcd-1.0.0.tgz
+    version: 1.0.0
   n8n:
   - annotations:
       category: app
@@ -7,7 +23,7 @@ entries:
       lastModified: "2025-08-25"
     apiVersion: v3
     appVersion: 1.0.0
-    created: "2025-09-25T06:22:44.772847-07:00"
+    created: "2025-10-03T12:18:35.165609-07:00"
     description: n8n with PostgreSQL
     digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
     name: n8n
@@ -23,7 +39,7 @@ entries:
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2025-09-25T06:22:44.773073-07:00"
+    created: "2025-10-03T12:18:35.166037-07:00"
     description: PostgreSQL app for Control Plane
     digest: b50ee1c06a4b5f13e81f7215a48374f27b53d9492b3020ac6205d87006858482
     name: postgres
@@ -31,4 +47,4 @@ entries:
     urls:
     - postgres-2.0.0.tgz
     version: 2.0.0
-generated: "2025-09-25T06:22:44.772422-07:00"
+generated: "2025-10-03T12:18:35.164658-07:00"
