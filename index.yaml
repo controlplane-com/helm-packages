@@ -5,16 +5,16 @@ entries:
       category: key-value store
       created: "2025-09-30"
       createsGvc: "false"
-      lastModified: "2025-10-13"
+      lastModified: "2025-10-16"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2025-10-03T12:18:35.165389-07:00"
+    created: "2025-10-29T15:45:44.931307-07:00"
     description: Etcd distributed coordination system for Control Plane
-    digest: 6e151d380de561a5ed280111bb50e3000b5d7c41a16df491028a3709155e58ae
+    digest: 9136bf9f3a23117e3a2c4fdeca817abb4799a4656ed1598fbbc2522876203c2b
     name: etcd
     type: application
     urls:
-    - etcd-1.0.0.tgz
+    - /Users/jacobcox/code/control-plane/helm-packages/redis-3.0.2.tgz/etcd-1.0.0.tgz
     version: 1.0.0
   n8n:
   - annotations:
@@ -23,28 +23,45 @@ entries:
       lastModified: "2025-08-25"
     apiVersion: v3
     appVersion: 1.0.0
-    created: "2025-10-03T12:18:35.165609-07:00"
+    created: "2025-10-29T15:45:44.932145-07:00"
     description: n8n with PostgreSQL
     digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
     name: n8n
     type: application
     urls:
-    - n8n-with-pg-1.0.0.tgz
+    - /Users/jacobcox/code/control-plane/helm-packages/redis-3.0.2.tgz/n8n-with-pg-1.0.0.tgz
     version: 1.0.0
   postgres:
   - annotations:
       category: database
       created: "2024-11-11"
-      lastModified: "2025-08-13"
+      createsGvc: "false"
+      lastModified: "2025-10-24"
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2025-10-03T12:18:35.166037-07:00"
+    created: "2025-10-29T15:45:44.932519-07:00"
     description: PostgreSQL app for Control Plane
-    digest: b50ee1c06a4b5f13e81f7215a48374f27b53d9492b3020ac6205d87006858482
+    digest: 97c104cea14b0b1823ca8075f53d3962f1b4365ef201f9894f78c1d2dc04e61e
     name: postgres
     type: application
     urls:
-    - postgres-2.0.0.tgz
+    - /Users/jacobcox/code/control-plane/helm-packages/redis-3.0.2.tgz/postgres-2.0.0.tgz
     version: 2.0.0
-generated: "2025-10-03T12:18:35.164658-07:00"
+  redis:
+  - annotations:
+      category: cache
+      created: "2025-06-25"
+      createsGvc: "false"
+      lastModified: "2025-07-09"
+    apiVersion: v2
+    appVersion: custom
+    created: "2025-10-29T15:45:44.933696-07:00"
+    description: A master-replica Redis configuration with Redis Sentinel
+    digest: ecd9f7bcaad7e9f4c1b5fa150d91fb1aff210cf78b79f478f1e564c166ecb2e9
+    name: redis
+    type: application
+    urls:
+    - /Users/jacobcox/code/control-plane/helm-packages/redis-3.0.2.tgz/redis-3.0.2.tgz
+    version: 3.0.2
+generated: "2025-10-29T15:45:44.929088-07:00"
