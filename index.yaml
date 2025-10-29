@@ -62,6 +62,6 @@ entries:
     name: redis
     type: application
     urls:
-    - /Users/jacobcox/code/control-plane/helm-packages/redis-3.0.2.tgz/redis-3.0.2.tgz
+    - /Users/jacobcox/code/control-plane/helm-packages/redis-3.0.2.tgz
     version: 3.0.2
 generated: "2025-10-29T15:45:44.929088-07:00"
