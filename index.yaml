@@ -8,7 +8,7 @@ entries:
       lastModified: "2025-10-16"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2025-10-29T15:45:44.931307-07:00"
+    created: "2025-11-06T10:01:19.039196-08:00"
     description: Etcd distributed coordination system for Control Plane
     digest: 9136bf9f3a23117e3a2c4fdeca817abb4799a4656ed1598fbbc2522876203c2b
     name: etcd
@@ -23,13 +23,29 @@ entries:
       lastModified: "2025-08-25"
     apiVersion: v3
     appVersion: 1.0.0
-    created: "2025-10-29T15:45:44.932145-07:00"
+    created: "2025-11-06T10:01:19.039556-08:00"
     description: n8n with PostgreSQL
     digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
     name: n8n
     type: application
     urls:
     - n8n-with-pg-1.0.0.tgz
+    version: 1.0.0
+  ollama:
+  - annotations:
+      category: llm
+      created: "2024-12-03"
+      createsGvc: "false"
+      lastModified: "2024-12-03"
+    apiVersion: v2
+    appVersion: "0.4"
+    created: "2025-11-06T10:01:19.039816-08:00"
+    description: An Ollama app for Control Plane
+    digest: 31693186d738e35988e687f380b8f29c0137af59704ff302c5585344d8c8a2c9
+    name: ollama
+    type: application
+    urls:
+    - ollama-1.0.0.tgz
     version: 1.0.0
   postgres:
   - annotations:
@@ -40,7 +56,7 @@ entries:
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2025-10-29T15:45:44.932519-07:00"
+    created: "2025-11-06T10:01:19.040194-08:00"
     description: PostgreSQL app for Control Plane
     digest: 97c104cea14b0b1823ca8075f53d3962f1b4365ef201f9894f78c1d2dc04e61e
     name: postgres
@@ -56,7 +72,7 @@ entries:
       lastModified: "2025-07-09"
     apiVersion: v2
     appVersion: custom
-    created: "2025-10-29T15:45:44.933696-07:00"
+    created: "2025-11-06T10:01:19.040848-08:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: ecd9f7bcaad7e9f4c1b5fa150d91fb1aff210cf78b79f478f1e564c166ecb2e9
     name: redis
@@ -64,4 +80,4 @@ entries:
     urls:
     - redis-3.0.2.tgz
     version: 3.0.2
-generated: "2025-10-29T15:45:44.929088-07:00"
+generated: "2025-11-06T10:01:19.038209-08:00"
