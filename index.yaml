@@ -5,7 +5,7 @@ entries:
       category: key-value store
       created: "2025-09-30"
       createsGvc: "false"
-      lastModified: "2025-10-16"
+      lastModified: "2025-11-26"
     apiVersion: v2
     appVersion: 3.6.5
     created: "2025-11-06T10:01:19.039196-08:00"
@@ -14,8 +14,8 @@ entries:
     name: etcd
     type: application
     urls:
-    - etcd-1.0.0.tgz
-    version: 1.0.0
+    - etcd-1.1.0.tgz
+    version: 1.1.0
   n8n:
   - annotations:
       category: app
@@ -52,7 +52,7 @@ entries:
       category: database
       created: "2024-11-11"
       createsGvc: "false"
-      lastModified: "2025-10-24"
+      lastModified: "2025-11-26"
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
@@ -62,8 +62,8 @@ entries:
     name: postgres
     type: application
     urls:
-    - postgres-2.0.0.tgz
-    version: 2.0.0
+    - postgres-2.1.0.tgz
+    version: 2.1.0
   redis:
   - annotations:
       category: cache
