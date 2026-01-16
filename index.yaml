@@ -5,10 +5,25 @@ entries:
       category: key-value store
       created: "2025-09-30"
       createsGvc: "false"
+      lastModified: "2026-01-16"
+    apiVersion: v2
+    appVersion: 3.6.5
+    created: "2026-01-16T09:41:55.498407-08:00"
+    description: Etcd distributed coordination system for Control Plane
+    digest: 4e79a19665fc29fb12c2bad4c7a2e889019f8719056b0b36ccfc8647d10f2779
+    name: etcd
+    type: application
+    urls:
+    - https://controlplane-com.github.io/helm-packages/etcd-1.3.0.tgz
+    version: 1.3.0
+  - annotations:
+      category: key-value store
+      created: "2025-09-30"
+      createsGvc: "false"
       lastModified: "2026-01-14"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2026-01-15T09:11:49.100771-08:00"
+    created: "2026-01-16T09:41:55.494525-08:00"
     description: Etcd distributed coordination system for Control Plane
     digest: ef91d4ace0be6feec247147b48768ce812bccad0b193bc0f8083989ae5433deb
     name: etcd
@@ -23,7 +38,7 @@ entries:
       lastModified: "2025-08-25"
     apiVersion: v3
     appVersion: 1.0.0
-    created: "2026-01-15T09:11:49.101266-08:00"
+    created: "2026-01-16T09:41:55.498836-08:00"
     description: n8n with PostgreSQL
     digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
     name: n8n
@@ -39,7 +54,7 @@ entries:
       lastModified: "2024-12-03"
     apiVersion: v2
     appVersion: "0.4"
-    created: "2026-01-15T09:11:49.101676-08:00"
+    created: "2026-01-16T09:41:55.499155-08:00"
     description: An Ollama app for Control Plane
     digest: 31693186d738e35988e687f380b8f29c0137af59704ff302c5585344d8c8a2c9
     name: ollama
@@ -56,7 +71,7 @@ entries:
       postgresVersion: "18"
     apiVersion: v2
     appVersion: "18"
-    created: "2026-01-15T09:11:49.102765-08:00"
+    created: "2026-01-16T09:41:55.500666-08:00"
     description: PostgreSQL database app for Control Plane
     digest: 53ddc0da7589c742b414ac8494643f5e4af5244ced223ebb83997d3a738624fa
     name: postgres
@@ -72,7 +87,7 @@ entries:
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2026-01-15T09:11:49.101896-08:00"
+    created: "2026-01-16T09:41:55.500059-08:00"
     description: PostgreSQL app for Control Plane
     digest: cc15cb7787cd1135dac2c636d4141830e6f49d0ac21c417c31c30258b32bf8e5
     name: postgres
@@ -88,7 +103,7 @@ entries:
       lastModified: "2025-07-09"
     apiVersion: v2
     appVersion: custom
-    created: "2026-01-15T09:11:49.103917-08:00"
+    created: "2026-01-16T09:41:55.501249-08:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: ecd9f7bcaad7e9f4c1b5fa150d91fb1aff210cf78b79f478f1e564c166ecb2e9
     name: redis
@@ -96,4 +111,4 @@ entries:
     urls:
     - https://controlplane-com.github.io/helm-packages/redis-3.0.2.tgz
     version: 3.0.2
-generated: "2026-01-15T09:11:49.099266-08:00"
+generated: "2026-01-16T09:41:55.493735-08:00"
