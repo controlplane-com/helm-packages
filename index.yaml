@@ -5,12 +5,12 @@ entries:
       category: key-value store
       created: "2025-09-30"
       createsGvc: "false"
-      lastModified: "2026-01-16"
+      lastModified: "2026-01-19"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2026-01-19T14:10:07.257376-08:00"
+    created: "2026-02-24T17:07:46.359273-08:00"
     description: Etcd distributed coordination system for Control Plane
-    digest: 7b82e2cab3e0f1049b3a1c62106435228896dfd87b61a15f8ce93a641e4cc8e3
+    digest: a417f2318c6f59a09b5b3b84d9ee09a4031985316e02621ae2a0bebd363f74e6
     name: etcd
     type: application
     urls:
@@ -23,7 +23,7 @@ entries:
       lastModified: "2026-01-14"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2026-01-19T14:10:07.256312-08:00"
+    created: "2026-02-24T17:07:46.359062-08:00"
     description: Etcd distributed coordination system for Control Plane
     digest: ef91d4ace0be6feec247147b48768ce812bccad0b193bc0f8083989ae5433deb
     name: etcd
@@ -38,7 +38,7 @@ entries:
       lastModified: "2025-08-25"
     apiVersion: v3
     appVersion: 1.0.0
-    created: "2026-01-19T14:10:07.257837-08:00"
+    created: "2026-02-24T17:07:46.359517-08:00"
     description: n8n with PostgreSQL
     digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
     name: n8n
@@ -54,7 +54,7 @@ entries:
       lastModified: "2024-12-03"
     apiVersion: v2
     appVersion: "0.4"
-    created: "2026-01-19T14:10:07.258248-08:00"
+    created: "2026-02-24T17:07:46.359967-08:00"
     description: An Ollama app for Control Plane
     digest: 31693186d738e35988e687f380b8f29c0137af59704ff302c5585344d8c8a2c9
     name: ollama
@@ -71,7 +71,23 @@ entries:
       postgresVersion: "18"
     apiVersion: v2
     appVersion: "18"
-    created: "2026-01-19T14:10:07.258947-08:00"
+    created: "2026-02-24T17:07:46.361475-08:00"
+    description: PostgreSQL database app for Control Plane
+    digest: d62075ab45781f3587befbf6bb09b489c5e33d6fc009fae89ed9a813d0ffc18a
+    name: postgres
+    type: application
+    urls:
+    - https://controlplane-com.github.io/helm-packages/postgres-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
+      category: database
+      created: "2025-12-23"
+      createsGvc: "false"
+      lastModified: "2025-12-24"
+      postgresVersion: "18"
+    apiVersion: v2
+    appVersion: "18"
+    created: "2026-02-24T17:07:46.360565-08:00"
     description: PostgreSQL database app for Control Plane
     digest: 53ddc0da7589c742b414ac8494643f5e4af5244ced223ebb83997d3a738624fa
     name: postgres
@@ -87,7 +103,7 @@ entries:
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2026-01-19T14:10:07.258577-08:00"
+    created: "2026-02-24T17:07:46.360165-08:00"
     description: PostgreSQL app for Control Plane
     digest: cc15cb7787cd1135dac2c636d4141830e6f49d0ac21c417c31c30258b32bf8e5
     name: postgres
@@ -103,7 +119,7 @@ entries:
       lastModified: "2026-01-08"
     apiVersion: v2
     appVersion: custom
-    created: "2026-01-19T14:10:07.261491-08:00"
+    created: "2026-02-24T17:07:46.362864-08:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: 2a348d5111b4aa61d99f4137492b909738c192e453d54ab31504c94b14211e07
     name: redis
@@ -118,7 +134,7 @@ entries:
       lastModified: "2025-12-05"
     apiVersion: v2
     appVersion: custom
-    created: "2026-01-19T14:10:07.26116-08:00"
+    created: "2026-02-24T17:07:46.362281-08:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: eee6444de3be05a31d859290cb4de3d47f9a60ab5c09b5c4630237d10780a328
     name: redis
@@ -133,7 +149,7 @@ entries:
       lastModified: "2025-07-09"
     apiVersion: v2
     appVersion: custom
-    created: "2026-01-19T14:10:07.260147-08:00"
+    created: "2026-02-24T17:07:46.361859-08:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: ecd9f7bcaad7e9f4c1b5fa150d91fb1aff210cf78b79f478f1e564c166ecb2e9
     name: redis
@@ -141,4 +157,4 @@ entries:
     urls:
     - https://controlplane-com.github.io/helm-packages/redis-3.0.2.tgz
     version: 3.0.2
-generated: "2026-01-19T14:10:07.255539-08:00"
+generated: "2026-02-24T17:07:46.357401-08:00"
