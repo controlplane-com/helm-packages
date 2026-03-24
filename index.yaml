@@ -8,7 +8,7 @@ entries:
       lastModified: "2026-02-24"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2026-03-24T14:46:45.010447-07:00"
+    created: "2026-03-24T16:40:35.579121-07:00"
     description: Etcd distributed coordination system for Control Plane
     digest: b58c06ac4e3be3ff954c034714910ae32b6a884714ed91ec4f788d7fad0a9832
     name: etcd
@@ -23,7 +23,7 @@ entries:
       lastModified: "2026-01-19"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2026-03-24T14:46:45.009614-07:00"
+    created: "2026-03-24T16:40:35.578847-07:00"
     description: Etcd distributed coordination system for Control Plane
     digest: a417f2318c6f59a09b5b3b84d9ee09a4031985316e02621ae2a0bebd363f74e6
     name: etcd
@@ -38,7 +38,7 @@ entries:
       lastModified: "2026-01-14"
     apiVersion: v2
     appVersion: 3.6.5
-    created: "2026-03-24T14:46:45.008927-07:00"
+    created: "2026-03-24T16:40:35.578414-07:00"
     description: Etcd distributed coordination system for Control Plane
     digest: ef91d4ace0be6feec247147b48768ce812bccad0b193bc0f8083989ae5433deb
     name: etcd
@@ -53,7 +53,7 @@ entries:
       lastModified: "2025-08-25"
     apiVersion: v3
     appVersion: 1.0.0
-    created: "2026-03-24T14:46:45.010691-07:00"
+    created: "2026-03-24T16:40:35.579367-07:00"
     description: n8n with PostgreSQL
     digest: ac00cb6a41fdf7dc9b577e7f2fdf7fbb4635ccc461dee1a441f49e907d16c2a0
     name: n8n
@@ -69,7 +69,7 @@ entries:
       lastModified: "2024-12-03"
     apiVersion: v2
     appVersion: "0.4"
-    created: "2026-03-24T14:46:45.011064-07:00"
+    created: "2026-03-24T16:40:35.579658-07:00"
     description: An Ollama app for Control Plane
     digest: 31693186d738e35988e687f380b8f29c0137af59704ff302c5585344d8c8a2c9
     name: ollama
@@ -86,7 +86,7 @@ entries:
       postgresVersion: "18"
     apiVersion: v2
     appVersion: "18"
-    created: "2026-03-24T14:46:45.012279-07:00"
+    created: "2026-03-24T16:40:35.580888-07:00"
     description: PostgreSQL database app for Control Plane
     digest: b8e80cd6b928f73d0fd844e1ee134add4f6322db06a127397f5360cf985a9e3f
     name: postgres
@@ -98,11 +98,27 @@ entries:
       category: database
       created: "2025-12-23"
       createsGvc: "false"
+      lastModified: "2026-03-11"
+      postgresVersion: "18"
+    apiVersion: v2
+    appVersion: "18"
+    created: "2026-03-24T16:40:35.580557-07:00"
+    description: PostgreSQL database app for Control Plane
+    digest: c07499f763d7af78c90d4af1cfccec998ed3124f5753762fc138258d32fd7ec4
+    name: postgres
+    type: application
+    urls:
+    - https://controlplane-com.github.io/helm-packages/postgres-3.1.1.tgz
+    version: 3.1.1
+  - annotations:
+      category: database
+      created: "2025-12-23"
+      createsGvc: "false"
       lastModified: "2025-12-24"
       postgresVersion: "18"
     apiVersion: v2
     appVersion: "18"
-    created: "2026-03-24T14:46:45.012-07:00"
+    created: "2026-03-24T16:40:35.580388-07:00"
     description: PostgreSQL database app for Control Plane
     digest: a4ac0081631efb8e734101311d53264d4af5ccdebdbc8e325101bc3394849ecc
     name: postgres
@@ -118,7 +134,7 @@ entries:
       postgresVersion: "18"
     apiVersion: v2
     appVersion: "18"
-    created: "2026-03-24T14:46:45.011743-07:00"
+    created: "2026-03-24T16:40:35.580124-07:00"
     description: PostgreSQL database app for Control Plane
     digest: 53ddc0da7589c742b414ac8494643f5e4af5244ced223ebb83997d3a738624fa
     name: postgres
@@ -134,7 +150,7 @@ entries:
       postgresVersion: "17"
     apiVersion: v2
     appVersion: "17"
-    created: "2026-03-24T14:46:45.01139-07:00"
+    created: "2026-03-24T16:40:35.579848-07:00"
     description: PostgreSQL app for Control Plane
     digest: cc15cb7787cd1135dac2c636d4141830e6f49d0ac21c417c31c30258b32bf8e5
     name: postgres
@@ -150,7 +166,7 @@ entries:
       lastModified: "2026-02-25"
     apiVersion: v2
     appVersion: custom
-    created: "2026-03-24T14:46:45.014562-07:00"
+    created: "2026-03-24T16:40:35.583561-07:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: bd9f0ec12e729dc90695ca6fea3db7305fe7c2abef162f5e3cb90d8c71c2fe2a
     name: redis
@@ -165,7 +181,7 @@ entries:
       lastModified: "2026-01-08"
     apiVersion: v2
     appVersion: custom
-    created: "2026-03-24T14:46:45.013514-07:00"
+    created: "2026-03-24T16:40:35.583059-07:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: 2a348d5111b4aa61d99f4137492b909738c192e453d54ab31504c94b14211e07
     name: redis
@@ -180,7 +196,7 @@ entries:
       lastModified: "2025-12-05"
     apiVersion: v2
     appVersion: custom
-    created: "2026-03-24T14:46:45.013087-07:00"
+    created: "2026-03-24T16:40:35.582592-07:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: eee6444de3be05a31d859290cb4de3d47f9a60ab5c09b5c4630237d10780a328
     name: redis
@@ -195,7 +211,7 @@ entries:
       lastModified: "2025-07-09"
     apiVersion: v2
     appVersion: custom
-    created: "2026-03-24T14:46:45.012722-07:00"
+    created: "2026-03-24T16:40:35.581436-07:00"
     description: A master-replica Redis configuration with Redis Sentinel
     digest: ecd9f7bcaad7e9f4c1b5fa150d91fb1aff210cf78b79f478f1e564c166ecb2e9
     name: redis
@@ -203,4 +219,4 @@ entries:
     urls:
     - https://controlplane-com.github.io/helm-packages/redis-3.0.2.tgz
     version: 3.0.2
-generated: "2026-03-24T14:46:45.008166-07:00"
+generated: "2026-03-24T16:40:35.577675-07:00"
