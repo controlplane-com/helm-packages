@@ -1,5 +1,32 @@
 # Control Plane Helm Packages
 
+> **This repository is read-only and will no longer receive updates.**
+>
+> New Helm template dependencies should reference the OCI packages hosted on [controlplane-com/templates](https://github.com/controlplane-com/templates) instead.
+>
+> **OCI endpoint:** `oci://ghcr.io/controlplane-com/templates`
+>
+> Existing templates referencing this repo will continue to work and do not need to be updated — only new template versions should use the OCI endpoint.
+
+### Migrating to OCI
+
+**Old** (`https://controlplane-com.github.io/helm-packages`):
+```yaml
+dependencies:
+  - name: etcd
+    version: 1.4.0
+    repository: "https://controlplane-com.github.io/helm-packages"
+```
+
+**New** (`oci://ghcr.io/controlplane-com/templates`):
+```yaml
+dependencies:
+  - name: oci://ghcr.io/controlplane-com/templates/etcd
+    version: 1.4.0
+```
+
+---
+
 Pre-packaged Helm charts used as dependencies in Control Plane Helm templates (e.g. postgres, redis, etcd). They are hosted via GitHub Pages at:
 
 ```
